@@ -1,6 +1,4 @@
 export default function Page({ name, url }) {
-  console.log(name);
-  console.log(url);
   return (
     <a 
       className={`
