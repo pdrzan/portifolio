@@ -22,7 +22,7 @@ export default function LinkButton({ icon, text, hoverText, url }) {
         <div className="opacity-0 text-(--primary-grey) group-hover:opacity-100">
           {hoverText}
         </div>
-        <Right className="w-[20px] duration-100 rotate-270 transition-transform group-hover:transform-[rotate(90deg)]"/>
+        <Right className="w-[20px] duration-300 rotate-270 transition-transform group-hover:transform-[rotate(90deg)]"/>
       </div>
     </a>
   );
