@@ -41,7 +41,7 @@ export default function Overview() {
             px-[20px] py-[10px] gap-[10px] flex
             rounded-[5px] border border-(--primary-blue)
             text-(--primary-blue) hover:opacity-85`}
-          href="#"
+          href="/PedroZanelato_CV.pdf"
           alt="CV page"
         >
           <div>
