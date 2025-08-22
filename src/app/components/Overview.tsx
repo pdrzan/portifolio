@@ -13,21 +13,18 @@ export default function Overview() {
       <div className="flex flex-col gap-[10px]">
         <LinkButton 
           url="https://www.linkedin.com/in/pdrzan" 
-          alt="My linkedin page"
           icon={<Linkedin/>} 
           text="Linkedin"
           hoverText="Connect with me"
         />
         <LinkButton
           url="https://github.com/pdrzan"
-          alt="My github page"
           icon={<GitHub/>}
           text="GitHub"
           hoverText="See my projects"
         />
         <LinkButton
           url="https://x.com/pdrzan"
-          alt="My X (formally twitter) page"
           icon={<Twitter/>}
           text="X (formally Twitter)"
           hoverText="Follow me"
@@ -42,7 +39,6 @@ export default function Overview() {
             rounded-[5px] border border-(--primary-blue)
             text-(--primary-blue) hover:opacity-85`}
           href="/PedroZanelato_CV.pdf"
-          alt="CV page"
         >
           <div>
             Download my CV

@@ -8,7 +8,7 @@ export default function Header() {
         <span className="text-(--primary-grey)">Software Developer</span>
       </div>
       <div className="pages flex gap-[20px] items-center">
-        <Page name="Articles" url="https://www.tabnews.com.br/pdrzan" selected={false}/>
+        <Page name="Articles" url="https://www.tabnews.com.br/pdrzan"/>
       </div>
     </div>
   );
