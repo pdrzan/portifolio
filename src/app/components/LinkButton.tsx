@@ -1,6 +1,7 @@
 import {ReactComponent as Right} from '../icons/right.svg';
 
-export default function LinkButton({ icon, text, hoverText, url }) {
+/* eslint-disable  @typescript-eslint/no-explicit-any */
+export default function LinkButton({ icon, text, hoverText, url }: { icon: any, text: string, hoverText: string, url: string }) {
   return (
     <a 
       href={url}

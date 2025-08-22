@@ -1,4 +1,4 @@
-import LinkButton from './LinkButton.tsx'
+import LinkButton from './LinkButton'
 import {ReactComponent as Linkedin} from '../icons/linkedin.svg';
 import {ReactComponent as GitHub} from '../icons/github.svg';
 import {ReactComponent as Twitter} from '../icons/twitter.svg';

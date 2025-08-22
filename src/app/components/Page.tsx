@@ -1,4 +1,4 @@
-export default function Page({ name, url }) {
+export default function Page({ name, url }: { name: string, url: string }) {
   return (
     <a 
       className={`
