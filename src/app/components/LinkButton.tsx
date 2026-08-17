@@ -1,16 +1,16 @@
-import {ReactComponent as Right} from '../icons/right.svg';
+import { ReactComponent as Right } from '../icons/right.svg';
 
 /* eslint-disable  @typescript-eslint/no-explicit-any */
 export default function LinkButton({ icon, text, hoverText, url }: { icon: any, text: string, hoverText: string, url: string }) {
   return (
-    <a 
+    <a
       href={url}
       className={`
         px-[20px] py-[10px] rounded-[5px] flex justify-between
         border border-(--primary-white) hover:bg-(--secondary-background)
         group
       `}
-      >
+    >
       <div className="flex items-center gap-[10px]">
         <div className="*:w-[30px] *:text-(--primary-white)">
           {icon}
@@ -23,7 +23,7 @@ export default function LinkButton({ icon, text, hoverText, url }: { icon: any, 
         <div className="opacity-0 text-(--primary-grey) group-hover:opacity-100">
           {hoverText}
         </div>
-        <Right className="w-[20px] duration-300 rotate-270 transition-transform group-hover:transform-[rotate(90deg)]"/>
+        <Right className="w-[20px] duration-300 rotate-270 transition-transform group-hover:transform-[rotate(90deg)]" />
       </div>
     </a>
   );
